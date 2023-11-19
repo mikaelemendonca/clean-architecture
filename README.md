@@ -1,1 +1,1 @@
-# clean_architecture_php
+# clean-architecture

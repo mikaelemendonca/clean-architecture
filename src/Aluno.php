@@ -17,16 +17,24 @@ class Aluno
         $this->cpf = $cpf;
         $this->nome = $nome;
         $this->email = $email;
-
-        // new Aluno(
-        //     new Cpf('123'),
-        //     'Mika',
-        //     new Email('email')
-        // )->adicionarTelefone('79', '996435832')
     }
 
-    public function addTelefone(string $ddd, string $numero)
+    // named constructors
+    public static function comCpfNomeEEmail(
+        string $numeroCpf,
+        string $email,
+        string $nome
+    ): self {
+        return new Aluno(
+            new Cpf($numeroCpf),
+            $nome,
+            new Email($email)
+        );
+    }
+
+    public function addTelefone(string $ddd, string $numero): self
     {
         $this->telefones[] = new Telefone($ddd, $numero);
+        return $this;
     }
 }

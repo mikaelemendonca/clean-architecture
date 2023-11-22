@@ -46,10 +46,3 @@ class FabricaAluno
         return $this->aluno;
     }
 }
-
-// $fab = new FabricaAluno();
-// $aluno = $fab
-//     ->comCpfEmailENome(numeroCpf: '', email: '', nome: '')
-//     ->addTelefone(ddd: '', numero: '')
-//     ->addTelefone(ddd: '', numero: '')
-//     ->getAluno();

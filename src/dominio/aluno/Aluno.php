@@ -40,4 +40,25 @@ class Aluno
         $this->telefones[] = new Telefone($ddd, $numero);
         return $this;
     }
+
+    /** @return Telefones[] */
+    public function telefones(): array
+    {
+        return $this->telefones;
+    }
+
+    public function cpf(): string
+    {
+        return $this->cpf;
+    }
+
+    public function nome(): string
+    {
+        return $this->nome;
+    }
+
+    public function email(): string
+    {
+        return $this->email;
+    }
 }

@@ -37,4 +37,15 @@ class Telefone implements Stringable
     {
         return "($this->ddd)$this->numero";
     }
+
+    
+    public function getDdd(): string
+    {
+        return $this->ddd;
+    }
+
+    public function getTelefone(): string
+    {
+        return $this->numero;
+    }
 }

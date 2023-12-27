@@ -25,8 +25,8 @@ class Aluno
     // named constructors
     public static function comCpfNomeEEmail(
         string $numeroCpf,
-        string $email,
-        string $nome
+        string $nome,
+        string $email
     ): self {
         return new Aluno(
             new Cpf($numeroCpf),

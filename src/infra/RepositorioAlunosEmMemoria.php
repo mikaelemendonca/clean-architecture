@@ -1,5 +1,7 @@
 <?php
 
+namespace Alura\Arquitetura\Infra;
+
 use Alura\Arquitetura\Dominio\Aluno\Aluno;
 use Alura\Arquitetura\Dominio\Aluno\AlunoNaoEncontrado;
 use Alura\Arquitetura\Dominio\Aluno\RepositorioDeAluno;
@@ -8,11 +10,6 @@ use Alura\Arquitetura\Dominio\Cpf;
 class RepositorioAlunosEmMemoria implements RepositorioDeAluno
 {
     private $alunos = [];
-
-    public function __construct(Aluno $aluno)
-    {
-        $this->alunos[] = $aluno;
-    }
 
     public function adicionar(Aluno $aluno): void
     {

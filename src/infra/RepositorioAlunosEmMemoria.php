@@ -2,9 +2,10 @@
 
 use Alura\Arquitetura\Dominio\Aluno\Aluno;
 use Alura\Arquitetura\Dominio\Aluno\AlunoNaoEncontrado;
-use Alura\Arquitetura\Dominio\Aluno\RepositoriaDeAluno;
+use Alura\Arquitetura\Dominio\Aluno\RepositorioDeAluno;
+use Alura\Arquitetura\Dominio\Cpf;
 
-class RepositorioAlunosEmMemoria implements RepositoriaDeAluno
+class RepositorioAlunosEmMemoria implements RepositorioDeAluno
 {
     private $alunos = [];
 

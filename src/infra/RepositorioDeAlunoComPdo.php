@@ -5,10 +5,10 @@ namespace Alura\Arquitetura\Infra;
 use Alura\Arquitetura\Dominio\Cpf;
 use Alura\Arquitetura\Dominio\Aluno\Aluno;
 use Alura\Arquitetura\Dominio\Aluno\AlunoNaoEncontrado;
-use Alura\Arquitetura\Dominio\Aluno\RepositoriaDeAluno;
+use Alura\Arquitetura\Dominio\Aluno\RepositorioDeAluno;
 use PDO;
 
-class RepositoriaDeAlunoComPdo implements RepositoriaDeAluno
+class RepositorioDeAlunoComPdo implements RepositorioDeAluno
 {
     private PDO $conexao;
 

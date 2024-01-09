@@ -20,6 +20,7 @@ class Aluno
         $this->cpf = $cpf;
         $this->nome = $nome;
         $this->email = $email;
+        $this->telefones = [];
     }
 
     // named constructors

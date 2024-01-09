@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Arquitetura\Tests;
+namespace Alura\Arquitetura\Tests\Dominio;
 
 use Alura\Arquitetura\Dominio\Email;
 use PHPUnit\Framework\TestCase;
@@ -16,7 +16,6 @@ class EmailTest extends TestCase
     public function testEmailDevePoderSerRepresentadoComoString()
     {
         $email = new Email(endereco: 'endereco@example.com');
-        var_dump($email);
         $this->assertSame('endereco@example.com', (string) $email);
     }
 }

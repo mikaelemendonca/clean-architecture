@@ -38,11 +38,15 @@ class Aluno
 
     public function addTelefone(string $ddd, string $numero): self
     {
+        if (count($this->telefones) === 2) {
+            throw new AlunoComDoisTelefones();
+        }
+
         $this->telefones[] = new Telefone($ddd, $numero);
         return $this;
     }
 
-    /** @return Telefones[] */
+    /** @return Telefone[] */
     public function telefones(): array
     {
         return $this->telefones;

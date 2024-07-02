@@ -25,5 +25,5 @@ class TelefoneTest extends TestCase
         $this->expectException(\InvalidArgumentException::class);
         // $this->expectDeprecationMessage('Número de telefone inválido');
         new Telefone(ddd: '24', numero: 'numero');
-}
+    }
 }

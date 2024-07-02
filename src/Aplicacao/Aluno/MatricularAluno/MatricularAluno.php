@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Arquitetura\App\Aluno\MatricularAluno;
+namespace Alura\Arquitetura\Aplicacao\Aluno\MatricularAluno;
 
 use Alura\Arquitetura\Dominio\Aluno\Aluno;
 use Alura\Arquitetura\Dominio\Aluno\RepositorioDeAluno;

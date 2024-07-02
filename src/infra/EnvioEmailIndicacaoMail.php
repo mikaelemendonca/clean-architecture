@@ -2,7 +2,7 @@
 
 namespace Alura\Arquitetura\Infra;
 
-use Alura\Arquitetura\App\Indicacao\EnviaEmailIndicao;
+use Alura\Arquitetura\Aplicacao\Indicacao\EnviaEmailIndicao;
 use Alura\Arquitetura\Dominio\Aluno\Aluno;
 
 class EnvioEmailIndicacaoMail implements EnviaEmailIndicao

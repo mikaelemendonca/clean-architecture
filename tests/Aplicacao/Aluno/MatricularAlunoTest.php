@@ -1,10 +1,10 @@
 <?php
 
-namespace Alura\Arquitetura\Tests\App;
+namespace Alura\Arquitetura\Tests\Aplicacao\Aluno;
 
 use Alura\Arquitetura\Dominio\Cpf;
-use Alura\Arquitetura\App\Aluno\MatricularAluno\MatricularAluno;
-use Alura\Arquitetura\App\Aluno\MatricularAluno\MatricularAlunoDto;
+use Alura\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
+use Alura\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
 use Alura\Arquitetura\Infra\RepositorioAlunosEmMemoria;
 use PHPUnit\Framework\TestCase;
 

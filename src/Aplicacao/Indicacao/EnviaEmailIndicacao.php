@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Arquitetura\App\Indicacao;
+namespace Alura\Arquitetura\Aplicacao\Indicacao;
 
 use Alura\Arquitetura\Dominio\Aluno\Aluno;
 

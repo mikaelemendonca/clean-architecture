@@ -10,5 +10,6 @@ Classe de Alunos contendo Telefones e gerenciando suas regras de negócio, geren
 Além disso, a persistência deve ser feito tudo no Repositório de Aluno.
 
 Eventos
-Representa um ação que aconteceu
+Representa uma ação que aconteceu
 Ex.: AlunoMatriculado
+Serve para a aplicação reagir de forma flexível.

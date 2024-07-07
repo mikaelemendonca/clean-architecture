@@ -16,5 +16,8 @@ Serve para a aplicação reagir de forma flexível.
 
 Contextos Delimitados
 Separar a aplicação para poder se tornar componetes isolados.
-Mapa de Contextos
+Padrão Mapa de Contextos.
+Padrão Shared Karnel.
 
+
+>> php matricular_aluno.php "123.456.789-00" "Mika" "m@e.com" "79" "999999999"

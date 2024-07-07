@@ -1,8 +1,8 @@
 <?php
 
-namespace Alura\Arquitetura\Gameficacao\Dominio\Selo;
+namespace Alura\Arquitetura\Gamificacao\Dominio\Selo;
 
-use Alura\Arquitetura\Gameficacao\Dominio\Cpf;
+use Alura\Arquitetura\Shared\Dominio\Cpf;
 
 class Selo
 {

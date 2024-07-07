@@ -4,9 +4,8 @@ namespace Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno;
 
 use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;
 use Alura\Arquitetura\Academico\Dominio\Aluno\AlunoMatriculado;
-use Alura\Arquitetura\Academico\Dominio\Aluno\LogDeAlunoMatriculado;
 use Alura\Arquitetura\Academico\Dominio\Aluno\RepositorioDeAluno;
-use Alura\Arquitetura\Academico\Dominio\PublicadorDeEvento;
+use Alura\Arquitetura\Shared\Dominio\Evento\PublicadorDeEvento;
 
 // padrão de projeto command
 // classe para ser chamada em um controller

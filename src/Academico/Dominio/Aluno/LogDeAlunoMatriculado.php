@@ -2,8 +2,8 @@
 
 namespace Alura\Arquitetura\Academico\Dominio\Aluno;
 
-use Alura\Arquitetura\Academico\Dominio\Evento;
-use Alura\Arquitetura\Academico\Dominio\OuvinteDeEvento;
+use Alura\Arquitetura\Shared\Dominio\Evento\Evento;
+use Alura\Arquitetura\Shared\Dominio\Evento\OuvinteDeEvento;
 
 class LogDeAlunoMatriculado extends OuvinteDeEvento
 {
@@ -23,6 +23,6 @@ class LogDeAlunoMatriculado extends OuvinteDeEvento
 
     public function sabeProcessar(Evento $evento): bool
     {
-        return $evento instanceof AlunoMatriculado;
+        return $evento->getNome() === 'aluno_matriculado';
     }
 }

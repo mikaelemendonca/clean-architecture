@@ -2,11 +2,10 @@
 
 namespace Alura\Arquitetura\Academico\Tests\Aplicacao\Aluno;
 
-use Alura\Arquitetura\Academico\Dominio\Cpf;
-use Alura\Arquitetura\Academico\Dominio\Aluno\AlunoComDoisTelefones;
 use Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
 use Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
 use Alura\Arquitetura\Academico\Infra\RepositorioAlunosEmMemoria;
+use Alura\Arquitetura\Shared\Dominio\Cpf;
 use PHPUnit\Framework\TestCase;
 
 class MatricularAlunoTest extends TestCase

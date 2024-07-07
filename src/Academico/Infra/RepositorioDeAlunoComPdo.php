@@ -2,7 +2,7 @@
 
 namespace Alura\Arquitetura\Academico\Infra;
 
-use Alura\Arquitetura\Academico\Dominio\Cpf;
+use Alura\Arquitetura\Shared\Dominio\Cpf;
 use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;
 use Alura\Arquitetura\Academico\Dominio\Aluno\AlunoNaoEncontrado;
 use Alura\Arquitetura\Academico\Dominio\Aluno\RepositorioDeAluno;

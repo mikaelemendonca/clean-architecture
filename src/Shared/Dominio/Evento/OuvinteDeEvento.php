@@ -1,8 +1,6 @@
 <?php
 
-namespace Alura\Arquitetura\Academico\Dominio;
-
-use DateTimeImmutable;
+namespace Alura\Arquitetura\Shared\Dominio\Evento;
 
 abstract class OuvinteDeEvento
 {

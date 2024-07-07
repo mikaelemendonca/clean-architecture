@@ -19,5 +19,10 @@ Separar a aplicação para poder se tornar componetes isolados.
 Padrão Mapa de Contextos.
 Padrão Shared Karnel.
 
+Livros:
+Domain-Driven Design: Tackling Complexity in the Heart of Software
+Implementing Domain-Driven Design
+https://leanpub.com/ddd-in-php 
+
 
 >> php matricular_aluno.php "123.456.789-00" "Mika" "m@e.com" "79" "999999999"

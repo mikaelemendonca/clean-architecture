@@ -1,19 +1,19 @@
 <?php
 
-use Alura\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
-use Alura\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
-use Alura\Arquitetura\Dominio\Aluno\Aluno;
-use Alura\Arquitetura\Dominio\Aluno\LogDeAlunoMatriculado;
-use Alura\Arquitetura\Dominio\PublicadorDeEvento;
-use Alura\Arquitetura\Infra\RepositorioAlunosEmMemoria;
+use Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
+use Alura\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
+use Alura\Arquitetura\Academico\Dominio\Aluno\Aluno;
+use Alura\Arquitetura\Academico\Dominio\Aluno\LogDeAlunoMatriculado;
+use Alura\Arquitetura\Academico\Dominio\PublicadorDeEvento;
+use Alura\Arquitetura\Academico\Infra\RepositorioAlunosEmMemoria;
 
 require 'vendor/autoload.php';
 
-$cpf = $arg[1];
-$nome = $arg[2];
-$email = $arg[3];
-$ddd = $arg[4];
-$numero = $arg[5];
+$cpf = $argv[1];
+$nome = $argv[2];
+$email = $argv[3];
+$ddd = $argv[4];
+$numero = $argv[5];
 
 $aluno = Aluno::comCpfNomeEEmail(
     $cpf,

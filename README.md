@@ -13,3 +13,8 @@ Eventos
 Representa uma ação que aconteceu
 Ex.: AlunoMatriculado
 Serve para a aplicação reagir de forma flexível.
+
+Contextos Delimitados
+Separar a aplicação para poder se tornar componetes isolados.
+Mapa de Contextos
+
